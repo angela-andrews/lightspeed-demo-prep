@@ -7,3 +7,4 @@ dnf check-update
 dnf install code
 git config --global user.email "38594234+angela-andrews@users.noreply.github.com"
 git config --global user.name "Angela Andrews"
+git config --global init.defaultBranch main
