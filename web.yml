@@ -1,0 +1,12 @@
+---
+- name: Install apache web server
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install httpd package
+      ansible.builtin.dnf:
+        name: httpd
+        state: latest
+
+    - name: Copy index.html
